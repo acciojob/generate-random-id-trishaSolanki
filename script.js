@@ -4,7 +4,7 @@ function makeid(l) {
 	const result = '';
 	const charactersLength = characters.length;
 	for(i=0; i<l; i++){
-		const randomIndex = Math.floor(MAth.random() * charactersLength);
+		const randomIndex = Math.floor(Math.random() * charactersLength);
 		result += characters.charAt(randomIndex);
 	}
 	return result;
